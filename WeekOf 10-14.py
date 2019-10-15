@@ -32,3 +32,29 @@ for sides in range(8, 100, 8):
 
 # takes 96 sides to get close
 # Accumulators
+
+acc = 0
+for val in range(1, 6):
+    acc = acc + val
+
+print(acc)
+acc = 0
+# compute the sum of the first 100 even numbers
+for even in range(0, 202, 2):
+    acc = acc + even
+print(acc)
+# compute the sum of the first 50 odd numbers
+acc = 0
+for odd in range(1, 51, 2):
+    acc = acc + odd
+print(acc)
+# compute the average of the first 100 odd numbers
+acc = 0
+for odd in range(1, 102, 2):
+    acc = acc + odd
+print(acc/100)
+# write a function that returns the average of the first N numbers, where N is a parameter
+
+# write a function called factorial that computes the product of the first N numbers.
+# each number in the fibonacci sequence is the sum of the previous 2 numbers. The first 2 are 1 and 1. compute the 10th.
+# write a function to compute the Nth Fibonacci number, where N is greater or equal to 3.
