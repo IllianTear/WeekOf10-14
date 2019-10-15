@@ -50,11 +50,15 @@ for odd in range(1, 51, 2):
 print(acc)
 # compute the average of the first 100 odd numbers
 acc = 0
-for odd in range(1, 102, 2):
+for odd in range(1, 200, 2):
     acc = acc + odd
 print(acc/100)
 # write a function that returns the average of the first N numbers, where N is a parameter
-
+def averageNumber(N):
+    acc = 0
+    for averageNumber in range(0, N, 1):
+        acc = acc + N
+print(averageNumber(50))
 # write a function called factorial that computes the product of the first N numbers.
 # each number in the fibonacci sequence is the sum of the previous 2 numbers. The first 2 are 1 and 1. compute the 10th.
 # write a function to compute the Nth Fibonacci number, where N is greater or equal to 3.
