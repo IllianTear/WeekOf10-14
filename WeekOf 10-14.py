@@ -31,3 +31,4 @@ for sides in range(8, 100, 8):
 # archimedes function and by math.pi. How many sides does it take to make the two close?
 
 # takes 96 sides to get close
+# Accumulators
