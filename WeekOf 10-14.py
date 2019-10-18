@@ -79,3 +79,26 @@ print(dogWeight == 25)
 catWeight = 15
 print(dogWeight >= 25 and catWeight <= 10)
 print(not catWeight <= 10)
+# Decision making skills
+alan = 20
+bob = 15
+karen = 25
+ans = 0
+if alan > 20:
+    if bob < 50:
+        ans = 150
+    else:
+        ans = 300
+else:
+    if karen > 500:
+        ans = 200
+    else:
+        ans = 75
+print(ans)
+value = 75
+if value > 100:
+    print("bigger than 100")
+elif value > 80:
+    print("bigger than 80")
+elif value > 45:
+    print("bigger than 45")
