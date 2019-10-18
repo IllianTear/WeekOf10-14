@@ -70,3 +70,12 @@ print(averageNumber(50))
 import random
 print(random.random())
 # will never be 1, can be 0.
+# Boolean Expressions
+# <,<=,>,>=,==,!=
+# Compoud Boolean expressions
+# and, or, not
+dogWeight = 25
+print(dogWeight == 25)
+catWeight = 15
+print(dogWeight >= 25 and catWeight <= 10)
+print(not catWeight <= 10)
