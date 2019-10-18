@@ -65,3 +65,6 @@ def factorial():
 # each number in the fibonacci sequence is the sum of the previous 2 numbers. The first 2 are 1 and 1. compute the 10th.
 
 # write a function to compute the Nth Fibonacci number, where N is greater or equal to 3.
+
+# A Monto Carol Simulation
+# 
