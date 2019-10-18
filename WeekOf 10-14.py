@@ -60,11 +60,13 @@ def averageNumber(N):
         acc = acc + N
 print(averageNumber(50))
 # write a function called factorial that computes the product of the first N numbers.
-def factorial():
 
 # each number in the fibonacci sequence is the sum of the previous 2 numbers. The first 2 are 1 and 1. compute the 10th.
 
 # write a function to compute the Nth Fibonacci number, where N is greater or equal to 3.
 
-# A Monto Carol Simulation
-# 
+# A Monte Carol Simulation
+# random numbers
+import random
+print(random.random())
+# will never be 1, can be 0.
