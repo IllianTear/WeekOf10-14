@@ -162,3 +162,5 @@ def showMontePi(numDarts):
     return pi
 
 print(showMontePi(100))
+
+# Plot points in the entire circle.
