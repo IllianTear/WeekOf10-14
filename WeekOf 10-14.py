@@ -143,8 +143,8 @@ def showMontePi(numDarts):
     t.penup()
 
     for i in range(numDarts):
-        x = random.random()
-        y = random.random()
+        x = random.randrange(-100, 100) / 100
+        y = random.randrange(-100, 100) / 100
 
         distance = math.sqrt(x**2 + y**2)
         t.goto(x, y)
@@ -160,7 +160,6 @@ def showMontePi(numDarts):
     pi = inCircle / numDarts * 4
     scn.exitonclick()
     return pi
-
-print(showMontePi(100))
+print(showMontePi(1000))
 
 # Plot points in the entire circle.
